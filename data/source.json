@@ -1,0 +1,30 @@
+{
+  "passengers": [
+    "p1"
+  ],
+  "requests": [
+    {
+      "request_id": "q1",
+      "passenger_id": "p1",
+      "at": 2,
+      "retry_of": null
+    }
+  ],
+  "dispatch": [
+    {
+      "dispatch_id": "d1",
+      "request_id": "q1",
+      "at": 3,
+      "available": 12,
+      "assigned_vehicle": null
+    }
+  ],
+  "journeys": [
+    {
+      "journey_id": "j1",
+      "request_id": "q1",
+      "status": "cancelled",
+      "end": 10
+    }
+  ]
+}
